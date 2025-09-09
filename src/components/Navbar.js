@@ -9,6 +9,8 @@ import {
   FaTimes,
 } from "react-icons/fa";
 
+import {SiLeetcode} from "react-icons/si";
+
 export default function Navbar() {
   const [click, setClick] = useState(false);
   const handleCLick = () => setClick(!click);
@@ -91,6 +93,17 @@ export default function Navbar() {
           rel="noopener noreferrer"
         >
           <FaGithub
+            className="social"
+            size={25}
+            style={{ marginRight: "2rem" }}
+          />
+        </a>
+        <a
+          href="https://leetcode.com/u/yashhkadam/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <SiLeetcode
             className="social"
             size={25}
             style={{ marginRight: "2rem" }}
