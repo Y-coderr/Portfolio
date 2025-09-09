@@ -1,10 +1,10 @@
 import React from 'react'
 import "./SkillCardStyle.css";
 
-import {DiGit,DiJava} from "react-icons/di";
+import {DiGit,DiJava,DiSwift} from "react-icons/di";
 import {SiVisualstudiocode, SiReact, SiSpringboot, SiSpring, SiIntellijidea, SiAndroidstudio } from "react-icons/si";
 import {TbBrandCss3, TbBrandJavascript, TbBrandPython} from "react-icons/tb";
-import {IoLogoWindows, IoLogoNpm} from "react-icons/io"
+import {IoLogoWindows, IoLogoNpm , IoLogoApple} from "react-icons/io"
 
 export default function SkillCard({id}) {
   return (
@@ -15,7 +15,7 @@ export default function SkillCard({id}) {
             <h2>Languages</h2>
             <div className="skillset">
               <abbr title='Java'><DiJava className='techLogo'/></abbr>
-              <abbr title='HTML 5'><TbBrandPython className='techLogo'/></abbr>
+              <abbr title='Swift'><DiSwift className='techLogo'/></abbr>
               <abbr title='JavaScript'><TbBrandJavascript className='techLogo'/></abbr>
             </div>                     
           </div>
@@ -35,6 +35,7 @@ export default function SkillCard({id}) {
             <div className="skillset">
               <abbr title='Visual Studio Code'><SiVisualstudiocode className='techLogo'/></abbr>
               <abbr title='Windows'><IoLogoWindows className='techLogo'/></abbr>
+              <abbr title='Windows'><IoLogoApple className='techLogo'/></abbr>
               <abbr title='Intellij idea'><SiIntellijidea className='techLogo'/></abbr>
               <abbr title='Android Studio'><SiAndroidstudio className='techLogo'/></abbr>
             </div>            

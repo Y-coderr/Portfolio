@@ -3,7 +3,7 @@ import './ContactFormStyle.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
-import cartoon from '../images/cartoon-compressed.png';
+import cartoon from '../images/cartoon-compressed.webp';
 
 export default function ContactForm({ id }) {
   const form = useRef();

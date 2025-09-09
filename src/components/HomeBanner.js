@@ -1,6 +1,6 @@
 import React from 'react';
 import "./HomeBannerStyle.css";
-import cartoon from "../images/cartoon-compressed.png";
+import cartoon from "../images/cartoon-compressed.webp";
 
 export default function HomeBanner({id}) {
   return (
