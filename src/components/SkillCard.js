@@ -3,7 +3,7 @@ import "./SkillCardStyle.css";
 
 import {DiGit,DiJava,DiSwift} from "react-icons/di";
 import {SiVisualstudiocode, SiReact, SiSpringboot, SiSpring, SiIntellijidea, SiAndroidstudio } from "react-icons/si";
-import {TbBrandCss3, TbBrandJavascript, TbBrandPython} from "react-icons/tb";
+import {TbBrandCss3, TbBrandJavascript} from "react-icons/tb";
 import {IoLogoWindows, IoLogoNpm , IoLogoApple} from "react-icons/io"
 
 export default function SkillCard({id}) {
